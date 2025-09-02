@@ -1,0 +1,57 @@
+<header>
+  <img src="logo.png" alt="Logo Moreface" width="150">
+  <h1>Bem-vindo à Moreface</h1>
+</header>
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-family: 'Futura', sans-serif;
+  color: #333;
+}
+<section class="produtos">
+  <h2>Nossos Produtos</h2>
+  <div class="galeria">
+    <div class="produto">
+      <img src="camiseta1.jpg" alt="Camiseta 1">
+      <p>Camiseta 1</p>
+    </div>
+    <div class="produto">
+      <img src="camiseta2.jpg" alt="Camiseta 2">
+      <p>Camiseta 2</p>
+    </div>
+    <!-- Adicione mais produtos conforme necessário -->
+  </div>
+</section>
+.produtos {
+  padding: 20px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.produto {
+  text-align: center;
+  width: 200px;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.produto p {
+  margin-top: 10px;
+  font-weight: bold;
+}

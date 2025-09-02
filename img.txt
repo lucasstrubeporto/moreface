@@ -1,0 +1,4 @@
+<img src="pa.jpg" alt="Banner principal">
+<img src="pouso1.jpg" alt="Camiseta Igreja Marfim">
+<img src="igraja2.jpg" alt="Camiseta Flor">
+<img src="pa.png" alt="Logo Moreface">
